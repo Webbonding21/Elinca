@@ -1,0 +1,149 @@
+.footer {
+    background-color: #17171a; /* Fondo oscuro */
+    color: white;
+    padding: 1rem 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    width: 200px;
+    margin-bottom: 2rem;
+}
+
+.footer-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #09DC1D; /* Color del título */
+}
+
+.footer-section p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: left;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #0917dc; /* Color al hacer hover */
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.8rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0917dc; /* Color al hacer hover en los íconos */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1rem;
+}
+
+.footer-bottom p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom .credit {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-bottom .credit a {
+    color: #09DC1D; /* Color del enlace */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-bottom .credit a:hover {
+    color: white; /* Cambio de color al hacer hover */
+}
+
+/* Estilos para la nueva sección de contacto */
+.footer-section.contact {
+    padding: 1rem 2rem;
+}
+
+.footer-section.contact p {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section p{
+        text-align: center;
+    }
+
+    .footer-section {
+        padding: 1rem 0;
+        align-items: center;
+    }
+
+    .footer-section ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

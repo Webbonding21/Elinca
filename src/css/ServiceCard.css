@@ -1,0 +1,64 @@
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd; /* Borde gris claro */
+    
+    overflow: hidden; /* Para que el contenido no sobresalga */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    background-color: #0003bd; /* Fondo blanco */
+    width: 90vw; /* Ancho máximo */
+    margin: 1rem; /* Espaciado alrededor */
+    position: relative; /* Necesario para posicionar la línea diagonal */
+}
+
+.service-card:hover {
+    transform: scale(1.05); /* Escalado al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.service-card-images {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajusta la altura según sea necesario */
+    display: flex;
+    overflow: hidden;
+}
+
+.service-card-img {
+    width: 33.33%; /* Cada imagen ocupa un tercio del contenedor */
+    height: 100%;
+    object-fit: cover; /* Recorta la imagen para cubrir el área */
+    position: relative;
+}
+
+.service-card-img:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: white; /* Fondo del contenedor para cubrir la parte diagonal */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    border-left: 2px solid rgba(0, 0, 0, 0.5); /* Línea diagonal entre imágenes */
+    transform: rotate(-45deg); /* Rotación para la línea diagonal */
+    transform-origin: 0 0; /* El punto de origen de la rotación */
+}
+
+.service-card-content {
+    padding: 1rem; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+.service-card-title {
+    font-size: 1.5rem; /* Tamaño del título */
+    margin-bottom: 0.5rem; /* Espaciado inferior */
+    color: #15ff00; /* Color del texto */
+}
+
+.service-card-text {
+    font-size: 1rem; /* Tamaño del texto */
+    color: #ffffff; /* Color del texto */
+}

@@ -1,0 +1,74 @@
+.clientes-section {
+    padding: 2rem 0rem;
+    background-color: #f4f4f4; /* Fondo claro */
+    text-align: center;
+    overflow: hidden; /* Esconde el overflow para el deslizamiento continuo */
+}
+
+.clientes-title {
+    font-size: 2rem;
+    color: #272727;
+    margin-bottom: 1.5rem;
+}
+
+.clientes-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Espaciado entre las dos filas */
+    background-color: #00940c;
+    padding: 2rem 0rem;
+    overflow: hidden; /* Para asegurar que el deslizamiento no se salga del contenedor */
+}
+
+.clientes-row {
+    display: flex;
+    flex-wrap: nowrap; /* Evita el ajuste de línea para mantener las imágenes en una fila */
+    animation: slide 20s linear infinite; /* Animación de deslizamiento */
+}
+
+.first-row {
+    animation-direction: normal; /* Deslizamiento hacia la derecha */
+}
+
+.second-row {
+    animation-direction: reverse; /* Deslizamiento hacia la derecha */
+}
+
+.cliente-item {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem; /* Espaciado lateral entre los logotipos */
+}
+
+.cliente-logo {
+    width: 150px;
+    height: 150px; /* Ajusta la altura máxima del logotipo */
+    object-fit: contain; /* Mantiene la proporción del logotipo */
+    padding: 10px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Se desliza a lo largo de toda la fila */
+    }
+}
+
+@media (max-width: 768px) {
+    .clientes-row {
+        animation: slide 20s linear infinite; /* Ajuste de velocidad para dispositivos móviles */
+    }
+    .first-row {
+        animation-direction: normal; /* Deslizamiento hacia la derecha */
+    }
+    
+    .second-row {
+        animation-direction: reverse; /* Deslizamiento hacia la derecha */
+    }
+}

@@ -11,7 +11,7 @@ const Hero = () => {
     });
 
     return (
-        <section className="hero">
+        <section style={{backgroundImage: 'url("servicios.png")'}} className="hero">
             <div className="hero-content">
                 <p className={`title ${logoInView ? 'animate__animated animate__fadeInUp animate__slow' : ''}`}>LÍDERES EN <b>AUTOMATIZACIÓN</b>  Y <b>ROBÓTICA</b> INDUSTRIAL</p>
                 <img 

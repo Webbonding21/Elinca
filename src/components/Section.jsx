@@ -6,8 +6,10 @@ import 'animate.css';
 const Section = ({ number, title, content, image, reverse, color, textcolor, titlecolor }) => {
     const { ref: sectionRef, inView: sectionInView } = useInView({
         triggerOnce: true, // La animación se ejecutará una vez
-        threshold: 0.2, // El 40% del elemento debe estar visible para activar la animación
+        threshold: 0.2, // El 20% del elemento debe estar visible para activar la animación
     });
+
+    const isMobile = window.innerWidth <= 768; // Detecta si el ancho de la pantalla es de 768px o menos
 
     const getStyledTitle = (title) => {
         const [firstWord, ...rest] = title.split(' ');
@@ -30,15 +32,15 @@ const Section = ({ number, title, content, image, reverse, color, textcolor, tit
             }} 
             className={`section ${reverse ? 'reverse' : ''}`}
         >
-            <div className={`section-number animate__animated ${sectionInView ? 'animate__fadeInLeft' : ''}`}>
+            <div className={`section-number animate__animated ${sectionInView ? (isMobile ? 'animate__fadeInUp' : 'animate__fadeInLeft') : ''}`}>
                 <span style={{opacity: sectionInView ? 1 : 0, color: titlecolor }}>{number}</span>
             </div>
-            <div className={`section-content animate__animated ${sectionInView ? 'animate__fadeInUp' : ''}`}>
+            <div className={`section-content animate__animated ${sectionInView ? (isMobile ? 'animate__fadeInUp' : 'animate__fadeInUp') : ''}`}>
                 <h2>{getStyledTitle(title)}</h2>
                 <p>{content}</p>
             </div>
             {image && (
-                <div className={`section-image animate__animated ${sectionInView ? 'animate__fadeInRight' : ''}`}>
+                <div className={`section-image animate__animated ${sectionInView ? (isMobile ? 'animate__fadeInUp' : 'animate__fadeInRight') : ''}`}>
                     <img src={image} alt={title} />
                 </div>
             )}

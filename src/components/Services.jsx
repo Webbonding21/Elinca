@@ -6,6 +6,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Services = () => {
     const { servicios } = data;
+    const isMobile = window.innerWidth <= 768; // Detecta si el ancho de la pantalla es de 768px o menos
 
     return (
         <section className="services-section">
@@ -17,8 +18,15 @@ const Services = () => {
                         threshold: 0.1, // Ajusta el umbral según sea necesario
                     });
 
-                    // Alterna las animaciones basadas en la visibilidad
-                    const animationClass = inView ? (index % 2 === 0 ? 'animate__fadeInLeft' : 'animate__fadeInRight') : '';
+                    // Alterna las animaciones basadas en la visibilidad y tamaño de pantalla
+                    let animationClass = '';
+                    if (inView) {
+                        if (isMobile) {
+                            animationClass = 'animate__fadeInUp';
+                        } else {
+                            animationClass = index % 2 === 0 ? 'animate__fadeInLeft' : 'animate__fadeInRight';
+                        }
+                    }
 
                     return (
                         <div

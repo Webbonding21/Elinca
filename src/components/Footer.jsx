@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-section about">
                     <a href="/">
-                    <img src='../../public/logo.png' alt="Elinca Electrónica" className="footer-logo" />
+                    <img src='https://firebasestorage.googleapis.com/v0/b/elinca-c86fe.appspot.com/o/Logo.png?alt=media&token=25fcbd3f-e18b-4aaf-940f-d2bb3a7a62ac' alt="Elinca Electrónica" className="footer-logo" />
                     </a>
                     <p>
                         Somos líderes en automatización y robótica industrial, comprometidos en brindar soluciones innovadoras para mejorar la eficiencia de nuestros clientes.

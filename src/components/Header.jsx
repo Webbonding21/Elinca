@@ -11,7 +11,7 @@ const Header = ({ backgroundColor }) => {
     return (
         <header className="header" style={{ backgroundColor }}>
             <a href="/" className="logo">
-                <img src="../../public/logo.png" alt="Elinca Electrónica" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/elinca-c86fe.appspot.com/o/Logo.png?alt=media&token=25fcbd3f-e18b-4aaf-940f-d2bb3a7a62ac" alt="Elinca Electrónica" />
             </a>
             <nav>
                 <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>

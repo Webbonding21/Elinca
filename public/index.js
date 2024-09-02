@@ -198,13 +198,13 @@ const servicios = [
         id: 1,
         title: 'Ingeniería en Automatización',
         content: 'Diseño y puesta en marcha de sistemas de automatización y control industrial.',
-        imgs: ['servicios.png', 'servicios.png', 'servicios.png']
+        imgs: ['https://img.freepik.com/foto-gratis/construccion-concepto-imagen-casco-laminado-planos-tablas-madera-estilo-retro_1423-263.jpg?t=st=1725285578~exp=1725289178~hmac=abc78b537973bf99a7fac50cdf0fc671abf64e69b88fbfe630e1a2ee219fbaf9&w=740', 'https://img.freepik.com/foto-gratis/grupo-arquitecto-discutiendo-plan-diseno-plano-oficina_23-2147842995.jpg?t=st=1725285637~exp=1725289237~hmac=a0c4fa055901fce13f5d2e9d1f727b6d47ec5e44dbc5eaec3eb675ec75c61b25&w=740', 'robot.jpg']
     },
     {
         id: 2,
         title: 'Ensamblaje de Tableros y Consolas',
         content: 'Fabricación e instalación de tableros de control para diferentes industrias.',
-        imgs: ['servicios.png', 'servicios.png', 'servicios.png']
+        imgs: ['proyectos.png', 'https://img.freepik.com/foto-gratis/joven-mirando-circuito-placa-base_23-2147883676.jpg?t=st=1725286258~exp=1725289858~hmac=be6ec1cb26da79ee44b3a67266a298ac51cb5d1940c9b7276066f16734fb700f&w=740', 'https://img.freepik.com/foto-gratis/equipamiento-arreglar-ordenador_1161-87.jpg?t=st=1725286435~exp=1725290035~hmac=c1805d9470cef6ec7855472ca18f21683be40bfd43231505e35dc5ec942f006b&w=740']
     },
     {
         id: 3,

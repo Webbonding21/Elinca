@@ -7,7 +7,7 @@
     overflow: hidden; /* Para que el contenido no sobresalga */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
-    background-color: #0003bd; /* Fondo blanco */
+    background-color: #ffffff; /* Fondo blanco */
     width: 90vw; /* Ancho máximo */
     margin: 1rem; /* Espaciado alrededor */
     position: relative; /* Necesario para posicionar la línea diagonal */
@@ -21,7 +21,7 @@
 .service-card-images {
     position: relative;
     width: 100%;
-    height: 200px; /* Ajusta la altura según sea necesario */
+    height: 40vh; /* Ajusta la altura según sea necesario */
     display: flex;
     overflow: hidden;
 }
@@ -30,7 +30,7 @@
     width: 33.33%; /* Cada imagen ocupa un tercio del contenedor */
     height: 100%;
     object-fit: cover; /* Recorta la imagen para cubrir el área */
-    position: relative;
+    
 }
 
 .service-card-img:not(:last-child)::after {
@@ -55,10 +55,10 @@
 .service-card-title {
     font-size: 1.5rem; /* Tamaño del título */
     margin-bottom: 0.5rem; /* Espaciado inferior */
-    color: #15ff00; /* Color del texto */
+    color: #1900ff; /* Color del texto */
 }
 
 .service-card-text {
     font-size: 1rem; /* Tamaño del texto */
-    color: #ffffff; /* Color del texto */
+    color: #000000; /* Color del texto */
 }

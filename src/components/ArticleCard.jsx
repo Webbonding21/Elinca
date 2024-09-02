@@ -5,7 +5,7 @@ import '../css/ArticleCard.css'; // Importa los estilos para la tarjeta
 const ArticleCard = ({ id, title, content, img, usuario }) => {
 
     const handleClick = () => {
-        window.location.href = `/article/${id}/${title}`;
+        window.location.href = `/article/${id}`;
     };
 
     return (

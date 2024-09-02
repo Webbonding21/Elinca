@@ -18,7 +18,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/article/:id/:nombre" element={<ArticleScreen articles={articulos} />} />
+          <Route path="/article/:id" element={<ArticleScreen articles={articulos} />} />
           <Route 
             path="/" 
             element={

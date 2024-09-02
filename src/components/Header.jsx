@@ -21,7 +21,7 @@ const Header = ({ backgroundColor }) => {
                 </div>
                 <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
                     <li><a href="/" onClick={toggleMenu}>Inicio</a></li>
-                    <li><a href="/servicios" onClick={toggleMenu}>Servicios</a></li>
+                    <li><a href="#services" onClick={toggleMenu}>Servicios</a></li>
                     <li><a href="/proyectos" onClick={toggleMenu}>Proyectos</a></li>
                     <li><a href="/contacto" onClick={toggleMenu}>Contacto</a></li>
                 </ul>

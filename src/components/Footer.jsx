@@ -19,7 +19,7 @@ const Footer = () => {
                     <h2>Enlaces Rápidos</h2>
                     <ul>
                         <li><a href="/">Inicio</a></li>
-                        <li><a href="/servicios">Servicios</a></li>
+                        <li><a href="/#services">Servicios</a></li>
                         <li><a href="/proyectos">Proyectos</a></li>
                         <li><a href="/contacto">Contacto</a></li>
                     </ul>

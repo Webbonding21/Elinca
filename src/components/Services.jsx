@@ -9,7 +9,7 @@ const Services = () => {
     const isMobile = window.innerWidth <= 768; // Detecta si el ancho de la pantalla es de 768px o menos
 
     return (
-        <section className="services-section">
+        <section id="services" className="services-section">
             <h2 className="services-title animate__animated animate__fadeInUp">Nuestros Servicios</h2>
             <div className="services-container">
                 {servicios.map((service, index) => {

@@ -10,6 +10,7 @@ import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import Articles from './components/Articles';
 import ArticleScreen from './components/ArticleScreen'; // Importa ArticleScreen
 import data from '../public/index'; // Asegúrate de tener los artículos importados
+import AllArticles from './components/AllAriticles';
 
 function App() {
   const { articulos } = data;
@@ -18,6 +19,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/article/:id/:title" element={<ArticleScreen articles={articulos} />} />
+          <Route path='/articles' element={<AllArticles/>} />
           <Route 
             path="/" 
             element={

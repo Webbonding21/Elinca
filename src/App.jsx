@@ -10,7 +10,7 @@ import Clientes from './components/Clientes';
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import Articles from './components/Articles';
 import ArticleScreen from './components/ArticleScreen'; // Importa ArticleScreen
-import data from '../src/constants/index'; // Asegúrate de tener los artículos importados
+import data from '../public/index'; // Asegúrate de tener los artículos importados
 
 function App() {
   const { articulos } = data;

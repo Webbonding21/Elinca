@@ -1,6 +1,6 @@
 import React from 'react';
 import ServiceCard from './ServiceCard'; // Asegúrate de que la ruta sea correcta
-import data from '../constants/index.js'; // Importa los servicios
+import data from '../../public/index.js'; // Importa los servicios
 import '../css/Services.css'; // Si deseas agregar estilos adicionales
 import { useInView } from 'react-intersection-observer';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Clientes.css'; // Importa los estilos para el componente
-import data from '../constants/index.js'; // Importa los datos de los clientes
+import data from '../../public/index.js'; // Importa los datos de los clientes
 
 const Clientes = () => {
     const { clientes } = data;

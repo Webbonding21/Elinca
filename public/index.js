@@ -210,19 +210,19 @@ const servicios = [
         id: 3,
         title: 'Sistemas de Protección Eléctrica',
         content: 'Implementación de sistemas de protección para la seguridad y eficiencia energética.',
-        imgs: ['servicios.png', 'servicios.png', 'servicios.png']
+        imgs: ['https://d100mj7v0l85u5.cloudfront.net/s3fs-public/2023-04/dispositivos-de-proteccion-electrica-3.png', 'https://d100mj7v0l85u5.cloudfront.net/s3fs-public/inline-images/dispositivos-de-proteccion-electrica-4.png', 'https://www.pucp.edu.pe/eficiencia-energetica/wp-content/uploads/2019/09/shutterstock_675267964-1024x668.jpg']
     },
     {
         id: 4,
         title: 'Sistemas de Control y Supervisión',
         content: 'Desarrollo de sistemas SCADA para la supervisión y control de procesos.',
-        imgs: ['servicios.png', 'servicios.png', 'servicios.png']
+        imgs: ['https://mesautomation.com/wp-content/uploads/2021/06/Sistemas-de-SUPERVISIO%CC%81N-CONTROL-Y-ADQUISICIO%CC%81N-DE-DATOS.jpeg', 'https://dynamic-assets.hitachienergy.com/is/image/hitachiabbpowergrids/sdm600996ca1e4c1f463c09537ff0000433538-1:16-9?wid=480&hei=270&fmt=webp-alpha&fit=crop%2C1', 'https://tecnolok.com.ar/wp-content/uploads/2016/04/21552830-Parte-del-proyecto-de-reparaci-n-Foto-de-archivo_P%C3%A1gina_03.jpg']
     },
     {
         id: 5,
         title: 'Sistemas de Comunicación Industrial',
         content: 'Integración de soluciones de comunicación para optimizar la gestión de procesos.',
-        imgs: ['servicios.png', 'servicios.png', 'servicios.png']
+        imgs: ['https://insercomp.cl/wp-content/uploads/2022/12/redes-bg-header-1024x576.jpg', 'https://www.juanpalacios.es/wp-content/uploads/2019/03/juan-palacios-analisis-redes-industriales-ethernet.jpg', 'https://cdn.prod.website-files.com/608fe4335740ea3362292486/64410c64b2af2d051f5e203e_RedesIndustriales.jpg']
     }
 ];
 

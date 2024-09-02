@@ -36,7 +36,9 @@ const Footer = () => {
                 {/* Nueva sección de contacto */}
                 <div className="footer-section contact">
                     <h2>Contacto</h2>
-                    <p><b>Teléfono:</b> +123 456 7890</p>
+                    <p><span style={{color: '#FF0000'}}>Teléfono:</span>+58 255 621.88.47 (VE)</p>
+                    <p><span style={{color: '#FF9100'}}>Teléfono:</span>+1 832 208.25.00 (US)</p>
+                    <p><span style={{color: '#0d6efd'}}>Teléfono:</span>+34 67 822.64.76 (ES)</p>
                     <p><b>Email:</b> contacto@elinca.com</p>
                 </div>
             </div>

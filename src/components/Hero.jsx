@@ -2,6 +2,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import '../css/Hero.css';
 import 'animate.css';
+import Header from './Header';
 
 const Hero = () => {
     // Utiliza el hook `useInView` para observar si el logo entra en la vista
@@ -11,7 +12,8 @@ const Hero = () => {
     });
 
     return (
-        <section style={{backgroundImage: 'url("servicios.png")'}} className="hero">
+        <section style={{backgroundImage: 'url("hero.jpg")'}} className="hero">
+            <Header backgroundColor={'#000000000'} />
             <div className="hero-content">
                 <p className={`title ${logoInView ? 'animate__animated animate__fadeInUp animate__slow' : ''}`}>LÍDERES EN <b>AUTOMATIZACIÓN</b>  Y <b>ROBÓTICA</b> INDUSTRIAL</p>
                 <img 

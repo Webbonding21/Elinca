@@ -26,6 +26,7 @@ const Articles = () => {
                             className={`article-wrapper animate__animated ${animationClass}`}
                         >
                             <ArticleCard
+                                id={article.id}
                                 title={article.title}
                                 content={article.content}
                                 img={article.img}

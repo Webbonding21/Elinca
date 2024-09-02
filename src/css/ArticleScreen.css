@@ -1,0 +1,92 @@
+.article-screen {
+    display: flex;
+    padding: 2vw;
+    padding-top: 15vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    background-color: #fff;
+    padding: 2vw;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.5;
+    overflow-y: scroll;
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #0036c9;
+}
+
+.article-content {
+    flex: 3;
+    background-color: #fff;
+    padding: 3vw;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.article-content p {
+    margin-bottom: 1rem;
+}
+
+.article-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #11c900;
+}
+
+.article-usuario {
+    font-size: 0.875rem;
+    color: #333;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.article-img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .article-screen {
+        padding: 5vw;
+        padding-top: 15vh; /* Reduce el espacio superior en pantallas pequeñas */
+        flex-direction: column;
+    }
+
+    .sidebar {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 2rem;
+        max-height: 70vh; /* Ajusta el alto de la barra lateral para pantallas pequeñas */;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    }
+
+    .article-content {
+        padding: 4vw; /* Ajusta el padding para pantallas pequeñas */
+        font-size: 1rem; /* Ajusta el tamaño de fuente en pantallas pequeñas */
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    }
+
+    .article-content h1 {
+        font-size: 2rem; /* Ajusta el tamaño del título para pantallas pequeñas */
+    }
+
+    .article-img {
+        height: auto; /* Deja que la imagen se ajuste automáticamente en altura */
+    }
+}

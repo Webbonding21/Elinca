@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/Header.css';
 
-const Header = () => {
+const Header = ({ backgroundColor }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -9,9 +9,9 @@ const Header = () => {
     };
 
     return (
-        <header className="header">
+        <header className="header" style={{ backgroundColor }}>
             <a href="/" className="logo">
-                <img src="logo.png" alt="Elinca Electrónica" />
+                <img src="../../public/logo.png" alt="Elinca Electrónica" />
             </a>
             <nav>
                 <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>

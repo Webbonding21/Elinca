@@ -2,7 +2,6 @@ import React from 'react';
 import { FaFacebookF, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import '../css/Footer.css';
-import logo from '../../public/logo.png'; // Asegúrate de que el logo esté en la carpeta correcta
 
 const Footer = () => {
     return (
@@ -10,7 +9,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-section about">
                     <a href="/">
-                    <img src={logo} alt="Elinca Electrónica" className="footer-logo" />
+                    <img src='../../public/logo.png' alt="Elinca Electrónica" className="footer-logo" />
                     </a>
                     <p>
                         Somos líderes en automatización y robótica industrial, comprometidos en brindar soluciones innovadoras para mejorar la eficiencia de nuestros clientes.

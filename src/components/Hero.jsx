@@ -13,7 +13,7 @@ const Hero = () => {
 
     return (
         <section style={{backgroundImage: 'url("hero.jpg")'}} className="hero">
-            <Header backgroundColor={'#000000000'} />
+            <Header backgroundColor={'rgba(0, 0, 0, 0)'} />
             <div className="hero-content">
                 <p className={`title ${logoInView ? 'animate__animated animate__fadeInUp animate__slow' : ''}`}>LÍDERES EN <b>AUTOMATIZACIÓN</b>  Y <b>ROBÓTICA</b> INDUSTRIAL</p>
                 <img 

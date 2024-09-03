@@ -198,31 +198,31 @@ const servicios = [
         id: 1,
         title: 'Ingeniería en Automatización',
         content: 'Diseño y puesta en marcha de sistemas de automatización y control industrial.',
-        imgs: ['https://img.freepik.com/foto-gratis/construccion-concepto-imagen-casco-laminado-planos-tablas-madera-estilo-retro_1423-263.jpg?t=st=1725285578~exp=1725289178~hmac=abc78b537973bf99a7fac50cdf0fc671abf64e69b88fbfe630e1a2ee219fbaf9&w=740', 'https://img.freepik.com/foto-gratis/grupo-arquitecto-discutiendo-plan-diseno-plano-oficina_23-2147842995.jpg?t=st=1725285637~exp=1725289237~hmac=a0c4fa055901fce13f5d2e9d1f727b6d47ec5e44dbc5eaec3eb675ec75c61b25&w=740', 'robot.jpg']
+        imgs: ['card1.jpg', 'card2.webp', 'robot.jpg']
     },
     {
         id: 2,
         title: 'Ensamblaje de Tableros y Consolas',
         content: 'Fabricación e instalación de tableros de control para diferentes industrias.',
-        imgs: ['proyectos.png', 'https://img.freepik.com/foto-gratis/joven-mirando-circuito-placa-base_23-2147883676.jpg?t=st=1725286258~exp=1725289858~hmac=be6ec1cb26da79ee44b3a67266a298ac51cb5d1940c9b7276066f16734fb700f&w=740', 'https://img.freepik.com/foto-gratis/equipamiento-arreglar-ordenador_1161-87.jpg?t=st=1725286435~exp=1725290035~hmac=c1805d9470cef6ec7855472ca18f21683be40bfd43231505e35dc5ec942f006b&w=740']
+        imgs: ['proyectos.png', 'card3.jpg', 'card4.jpg']
     },
     {
         id: 3,
         title: 'Sistemas de Protección Eléctrica',
         content: 'Implementación de sistemas de protección para la seguridad y eficiencia energética.',
-        imgs: ['https://d100mj7v0l85u5.cloudfront.net/s3fs-public/2023-04/dispositivos-de-proteccion-electrica-3.png', 'https://d100mj7v0l85u5.cloudfront.net/s3fs-public/inline-images/dispositivos-de-proteccion-electrica-4.png', 'https://www.pucp.edu.pe/eficiencia-energetica/wp-content/uploads/2019/09/shutterstock_675267964-1024x668.jpg']
+        imgs: ['card5.png', 'card6.png', 'card7.jpg']
     },
     {
         id: 4,
         title: 'Sistemas de Control y Supervisión',
         content: 'Desarrollo de sistemas SCADA para la supervisión y control de procesos.',
-        imgs: ['https://mesautomation.com/wp-content/uploads/2021/06/Sistemas-de-SUPERVISIO%CC%81N-CONTROL-Y-ADQUISICIO%CC%81N-DE-DATOS.jpeg', 'https://dynamic-assets.hitachienergy.com/is/image/hitachiabbpowergrids/sdm600996ca1e4c1f463c09537ff0000433538-1:16-9?wid=480&hei=270&fmt=webp-alpha&fit=crop%2C1', 'https://tecnolok.com.ar/wp-content/uploads/2016/04/21552830-Parte-del-proyecto-de-reparaci-n-Foto-de-archivo_P%C3%A1gina_03.jpg']
+        imgs: ['card8.jpeg', 'card9.webp', 'card10.jpg']
     },
     {
         id: 5,
         title: 'Sistemas de Comunicación Industrial',
         content: 'Integración de soluciones de comunicación para optimizar la gestión de procesos.',
-        imgs: ['https://insercomp.cl/wp-content/uploads/2022/12/redes-bg-header-1024x576.jpg', 'https://www.juanpalacios.es/wp-content/uploads/2019/03/juan-palacios-analisis-redes-industriales-ethernet.jpg', 'https://cdn.prod.website-files.com/608fe4335740ea3362292486/64410c64b2af2d051f5e203e_RedesIndustriales.jpg']
+        imgs: ['card11.jpg', 'card12.jpg', 'card13.jpg']
     }
 ];
 

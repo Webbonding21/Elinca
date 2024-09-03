@@ -29,7 +29,7 @@ const Header = ({ backgroundColor }) => {
                         </details>
                     </div>
                     <li><a href="/" onClick={toggleMenu}>Inicio</a></li>
-                    <li><a href="/articles" onClick={toggleMenu}>Articles</a></li>
+                    <li><a href="/articles" onClick={toggleMenu}>Artículos</a></li>
                     <li><a href="/proyectos" onClick={toggleMenu}>Proyectos</a></li>
                     <li><a href="/contacto" onClick={toggleMenu}>Contacto</a></li>
                 </ul>

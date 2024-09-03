@@ -15,7 +15,7 @@ const Hero = () => {
         <section style={{backgroundImage: 'url("hero.jpg")'}} className="hero">
             <Header backgroundColor={'rgba(0, 0, 0, 0)'} />
             <div className="hero-content">
-                <p className={`title ${logoInView ? 'animate__animated animate__fadeInUp animate__slow' : ''}`}>LÍDERES EN <b>AUTOMATIZACIÓN</b>  Y <b>ROBÓTICA</b> INDUSTRIAL</p>
+                <p className={`title ${logoInView ? 'animate__animated animate__fadeInUp animate__slow' : ''}`}>LÍDERES EN <b>AUTOMATIZACIÓN</b>  Y <b>ROBÓTICA INDUSTRIAL</b> </p>
                 <img 
                     ref={logoRef}
                     className={`hero-logo ${logoInView ? 'animate__animated animate__fadeInRight animate__slow' : ''}`} 

@@ -38,7 +38,7 @@ function App() {
                   number="02"
                   title="CRECEMOS PARA LIDERAR"
                   content="Con una sólida presencia en Venezuela, Elinca ha consolidado su reputación en el sector industrial. Además, la empresa continúa expandiendo su influencia y experiencia internacionalmente, con sedes en Estados Unidos y España, fortaleciendo su capacidad de ofrecer soluciones globales."
-                  image="maps.png"
+                  image="sectioninn.jpg"
                   color="#fff"
                   reverse
                   textcolor="black"

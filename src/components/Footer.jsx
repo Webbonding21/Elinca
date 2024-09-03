@@ -39,7 +39,7 @@ const Footer = () => {
                     <p><span style={{color: '#FF0000'}}>Teléfono:</span>+58 255 621.88.47 (VE)</p>
                     <p><span style={{color: '#FF9100'}}>Teléfono:</span>+1 832 208.25.00 (US)</p>
                     <p><span style={{color: '#0d6efd'}}>Teléfono:</span>+34 67 822.64.76 (ES)</p>
-                    <p><b>Email:</b> contacto@elinca.com</p>
+                    <p><b>Email:</b> <a href="mailto: ventas@elinca.net">ventas@elinca.net</a></p>
                 </div>
             </div>
             <div className="footer-bottom">

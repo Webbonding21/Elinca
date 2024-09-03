@@ -24,7 +24,10 @@ const ArticleScreen = ({ articles }) => {
                 <p className="article-usuario">Por: {article.usuario}</p>
             </div>
             <div className="sidebar">
+                <div style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'row'}} className="sidebar-title">
                 <h3>Otros Artículos</h3>
+                <p onClick={() => window.location.href = '/articles'} style={{cursor: 'pointer', color: '#000fdd'}}>Ver todo</p>
+                </div>
                 {otherArticles.map(otherArticle => (
                     <Link key={otherArticle.id} to={`/article/${otherArticle.id}`}>
                         <ArticleCard 

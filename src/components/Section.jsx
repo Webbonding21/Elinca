@@ -6,7 +6,7 @@ import 'animate.css';
 const Section = ({ number, title, content, image, reverse, color, textcolor, titlecolor }) => {
     const { ref: sectionRef, inView: sectionInView } = useInView({
         triggerOnce: true,
-        threshold: 0.2,
+        threshold: 0.5,
     });
 
     const imageRef = useRef(null);

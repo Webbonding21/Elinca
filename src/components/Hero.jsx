@@ -19,7 +19,7 @@ const Hero = () => {
                 <img 
                     ref={logoRef}
                     className={`hero-logo ${logoInView ? 'animate__animated animate__fadeInRight animate__slow' : ''}`} 
-                    src="logof.png" 
+                    src="logo_elinca_final.png" 
                     alt="Elinca Electrónica" 
                     id="hero-logo"
                 />

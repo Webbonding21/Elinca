@@ -1,11 +1,13 @@
 .articles-section {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
+    padding-top: 15vh;
     background-color: #f4f4f4;
     text-align: center;
 }
 
 .articles-title {
     font-size: 2.5rem;
+    margin-top: 2rem ;
     margin-bottom: 2rem;
     color: #333;
 }
